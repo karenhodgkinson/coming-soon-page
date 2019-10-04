@@ -1,0 +1,18 @@
+html {
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: Lato, sans-serif;
+  color: #fff;
+}
+
+body {
+  background-image: url("../images/pastelpinkgreen.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #fff;
+}
+
+.coming-soon-card {
+  background: rgba(0,0,0,0.5);
+  border-radius: .3em;
+}
