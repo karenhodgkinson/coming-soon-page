@@ -1,7 +1,7 @@
 html {
   font-family: "Source Sans Pro", sans-serif;
   font-family: Lato, sans-serif;
-  color: #fff;
+  color: #231f20;
 }
 
 body {
@@ -9,10 +9,39 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #fff;
 }
 
 .coming-soon-card {
-  background: rgba(0,0,0,0.5);
+  background: rgba(255, 255, 255, .5);
   border-radius: .3em;
+}
+
+.skip-links {
+  display: none;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+.karen > img {
+  border-radius: .3em;
+}
+
+header {
+  background-color: #f4f9f8;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #1f4750;
+}
+
+h1 {
+  color: #1f4750;
 }
